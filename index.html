@@ -3,30 +3,61 @@
     <head>
         <title>First Page - CodeQueen6
         </title>
+        <style>
+            /*selector {rule:value;}*/
+            /*
+            -element/tag selector
+            -id selector '#'
+            -class selector '.'
+            -attribute selector*/
+            body{
+                margin: 0;
+                background-color: rgb(63, 63, 95);
+                color: #f2f2f2;
+
+            }
+            p, h3:first{
+                margin: left 50px;
+            };
+            #first{
+                 /*color: rgb(10%, 20%,40%);*/
+                background-color:rgb(30,23,57,40%);
+                color: red;
+                font-size: 16px;
+                padding: 20px;
+                /*opacity:0;*/}
+            p.second{
+            width:50%;
+            float:left;}
+
+            .third{
+            width:50%;
+            float:right; }
+            span{
+                background-color: rgba(0, 0, 0,6);
+                padding:3px
+            }
+
+        
+
+        </style>
     </head>
     <body>
         <header>
-            <nav>
-                <ul style="list-style-type: disc;">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="mailto:nangellalisa@gmail.com.html">Contact</a></li>
-                <li></li><a href="./faq.html" target="_blank">FAQs</a></li>
-            </ul>
-            </nav>
         </header>
-        <h3>Breakfast Menu</h3>
+        <h3 style="color: blue;font-size: medium;"> Clothes Lineup</h3>
         <ul style="list-style-type:none;" >
-            <li>Eggs</li>
-            <li>Sausages</li>
-            <li>Black Tea</li>
-            <li>Samosas</li>
+            <li>Shirts</li>
+            <li>Dresses</li>
+            <li>Shoes</li>
+            <li></li>
         </ul>
-        <h3>Lunch Menu</h3>
+        <h3>Shoes line up</h3>
         <ol type="i">
-            <li>Eggs</li>
-            <li>Sausages</li>
-            <li>Black Tea</li>
-            <li>Samosas</li>
+            <li>MENS</li>
+            <li>Ladies</li>
+            <li>Sports</li>
+            <li>Crafts</li>
         </ol>
 
         <!--
@@ -36,7 +67,10 @@
         <h4>I am a heading!</h4>-->
         <h5>I am a heading!</h5>
         <h6>I am a heading!</h6>
-        <p>Lorem ipsum dolor sit amet, 
+        <p id="first">
+            <span>
+                Sample Heading One</span>
+                <br> ipsum dolor sit amet, 
             consectetur adipisicing elit. 
             Dolorem iste distinctio velit saepe. 
             Aliquam voluptate asperiores facere ea!
@@ -45,8 +79,10 @@
             <!--add address to our office -->
             Lorem ipsum dolor sit amet, 
             consectetur adipisicing elit.<br> 
-            Dolorem iste distinctio velit saepe. 
-            Aliquam voluptate asperiores facere ea!
+            Dolorem iste distinctio velit saepe.</p>  
+        <p class = "second"> 
+            <span>Sample Heading Two</span>
+            <br> Aliquam voluptate asperiores facere ea!
             Nam harum quos iure ullam rem!
             Dolor expedita doloribus non eaque hic.
             Lorem ipsum dolor sit amet, 
@@ -54,8 +90,10 @@
             Dolorem iste distinctio velit saepe. 
             Aliquam voluptate asperiores facere ea!
             Nam harum quos iure ullam rem!
-            Dolor expedita doloribus non eaque hic.
-            Lorem ipsum dolor sit amet, 
+            Dolor expedita doloribus non eaque hic.</p>
+            <p class="third">
+                <span>Sample Heading Three</span>
+                <br>Lorem ipsum dolor sit amet, 
             consectetur adipisicing elit. 
             Dolorem iste distinctio velit saepe. 
             Aliquam voluptate asperiores facere ea!
