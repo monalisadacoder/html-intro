@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    min-width: 1000px;
+    height: 1000px;
+    background-color: rgba(102, 221, 241, .4);
+    margin:auto;
+    padding:105px;
+
+}
+.white{
+    width: 569px;
+    min-height:600px;
+    background-color:rgb(16, 16, 223);
+    float:left;
+}
+.blue{    width:570px;
+    min-height:600px;
+    background-color:#fff;
+    float:right;
+}
+.box1{
+    padding-left: 150px;
+    padding-right: 90px;
+    padding-top: 200px;
+    color:#fff;
+
+}
+.box1 p{
+    padding :30px;
+}
+.box2 h4{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right:10px;
+}
+ .box2{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+    color:black;
+} 
+.box2 h3{
+ font-size: 30px;
+}
+.box2 button{
+    
+        border: none;
+        color:#fff blue;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color:
+     rgb(245, 241, 241) rgb(16, 16, 223);
+      
+    width:350px;
+    text-align: center;
+    padding:10px;
+    border-radius: 15px;
+    border: none;
+}
+.button1 {
+    color:white ;
+    background-color: #1735e2;} 
+.button2 {
+    color:blue;
+    background-color: #f3f6f7;}
+/* © 2022 GitHub, Inc. */
+/* Terms 
+Privacy
+Security*/
